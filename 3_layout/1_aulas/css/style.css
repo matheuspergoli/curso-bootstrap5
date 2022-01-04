@@ -1,0 +1,72 @@
+/* XS */
+h1 {
+    color: tomato;
+}
+
+/* SM >= 576px*/
+@media (min-width: 576px) {
+    h1 {
+        color: blue;
+    }
+}
+
+/* MD >= 768px */
+@media (min-width: 768px) {
+    h1 {
+        color: red;
+    }
+}
+
+/* LG >= 992px */
+@media (min-width: 992px) {
+    h1 {
+        color: rgb(196, 6, 196);
+    }
+}
+
+/* XL > 1200px */
+@media (min-width: 1200px) {
+    h1 {
+        color: yellow;
+    }
+}
+
+/* XXL > 1400px */
+@media (min-width: 1400px) {
+    h1 {
+        color: cyan;
+    }
+}
+
+/* Container */
+.container {
+    margin-bottom: 20px;
+    border: 2px solid blue;
+}
+
+/* Container-fluid */
+.container-fluid {
+    margin-bottom: 20px;
+    border: 2px solid rgb(220, 65, 235);
+}
+
+/* Container breakpoint */
+.container-sm {
+    margin-bottom: 20px;
+    border: 2px solid tomato;
+}
+
+.container-md {
+    margin-bottom: 20px;
+    border: 2px solid greenyellow;
+}
+
+.container-lg {
+    margin-bottom: 20px;
+    border: 2px solid hotpink;
+}
+
+.container-xl {
+    margin-bottom: 20px;
+    border: 2px solid gold;
+}
