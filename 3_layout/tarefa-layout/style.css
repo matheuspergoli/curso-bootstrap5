@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.row-cols-4, .col {
+    border: 2px solid black;
+}
+
+.col {
+    height: 150px;
+}
+
+.col p {
+    text-align: center;
+    line-height: 150px;
+}
+
+.col:nth-child(even) {
+    background-color: tomato;
+}
+
+.col:nth-child(odd) {
+    background-color: turquoise;
+}
