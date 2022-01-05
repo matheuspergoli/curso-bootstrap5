@@ -80,7 +80,11 @@ h1 {
     margin: 0px;
 }
 
-.col {
+.col,
+.col-4,
+.col-2,
+.col-1,
+.col-11 {
     border: 2px dashed red;
     height: 100%;
     margin: 0px;
